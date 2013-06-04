@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1340/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry
+END
+WWBoundingSphere.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1233/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWBoundingSphere.h
+END
+WWLocation.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1312/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWLocation.m
+END
+WWBoundingBox.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1216/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWBoundingBox.h
+END
+WWBoundingSphere.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1233/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWBoundingSphere.m
+END
+WWBoundingBox.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1216/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWBoundingBox.m
+END
+WWLine.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1280/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWLine.h
+END
+WWLine.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1280/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWLine.m
+END
+WWPlane.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1187/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWPlane.h
+END
+WWSector.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1239/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWSector.h
+END
+WWVec4.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1318/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWVec4.h
+END
+WWPosition.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1307/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWPosition.h
+END
+WWPlane.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1205/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWPlane.m
+END
+WWMatrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1340/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWMatrix.h
+END
+WWSector.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1239/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWSector.m
+END
+WWFrustum.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1214/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWFrustum.h
+END
+WWVec4.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1318/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWVec4.m
+END
+WWExtent.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1086/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWExtent.h
+END
+WWLocation.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1264/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWLocation.h
+END
+WWMatrix.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1340/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWMatrix.m
+END
+WWPosition.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1307/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWPosition.m
+END
+WWFrustum.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1214/trunk/WorldWindIOS/WorldWind/WorldWind/Geometry/WWFrustum.m
+END

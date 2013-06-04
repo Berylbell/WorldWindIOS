@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1349/trunk/WorldWindIOS/WorldWind/WorldWind/Shapes
+END
+WWShapeAttributes.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1325/trunk/WorldWindIOS/WorldWind/WorldWind/Shapes/WWShapeAttributes.m
+END
+WWPointPlacemark.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1349/trunk/WorldWindIOS/WorldWind/WorldWind/Shapes/WWPointPlacemark.m
+END
+WWPointPlacemarkAttributes.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1338/trunk/WorldWindIOS/WorldWind/WorldWind/Shapes/WWPointPlacemarkAttributes.h
+END
+WWAbstractShape.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1337/trunk/WorldWindIOS/WorldWind/WorldWind/Shapes/WWAbstractShape.h
+END
+WWPointPlacemarkAttributes.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1338/trunk/WorldWindIOS/WorldWind/WorldWind/Shapes/WWPointPlacemarkAttributes.m
+END
+WWSphere.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1314/trunk/WorldWindIOS/WorldWind/WorldWind/Shapes/WWSphere.h
+END
+WWAbstractShape.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1336/trunk/WorldWindIOS/WorldWind/WorldWind/Shapes/WWAbstractShape.m
+END
+WWSurfaceImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1337/trunk/WorldWindIOS/WorldWind/WorldWind/Shapes/WWSurfaceImage.h
+END
+WWSphere.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1314/trunk/WorldWindIOS/WorldWind/WorldWind/Shapes/WWSphere.m
+END
+WWPath.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1233/trunk/WorldWindIOS/WorldWind/WorldWind/Shapes/WWPath.h
+END
+WWSurfaceImage.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1283/trunk/WorldWindIOS/WorldWind/WorldWind/Shapes/WWSurfaceImage.m
+END
+WWPath.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1340/trunk/WorldWindIOS/WorldWind/WorldWind/Shapes/WWPath.m
+END
+WWOutlinedShape.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1178/trunk/WorldWindIOS/WorldWind/WorldWind/Shapes/WWOutlinedShape.h
+END
+WWShapeAttributes.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1178/trunk/WorldWindIOS/WorldWind/WorldWind/Shapes/WWShapeAttributes.h
+END
+WWPointPlacemark.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1349/trunk/WorldWindIOS/WorldWind/WorldWind/Shapes/WWPointPlacemark.h
+END

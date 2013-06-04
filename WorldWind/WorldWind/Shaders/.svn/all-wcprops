@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1334/trunk/WorldWindIOS/WorldWind/WorldWind/Shaders
+END
+DefaultShader.frag
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1229/trunk/WorldWindIOS/WorldWind/WorldWind/Shaders/DefaultShader.frag
+END
+DefaultShader.vert
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1229/trunk/WorldWindIOS/WorldWind/WorldWind/Shaders/DefaultShader.vert
+END
+DefaultTextureShader.frag
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1321/trunk/WorldWindIOS/WorldWind/WorldWind/Shaders/DefaultTextureShader.frag
+END
+DefaultTextureShader.vert
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1334/trunk/WorldWindIOS/WorldWind/WorldWind/Shaders/DefaultTextureShader.vert
+END
+SurfaceTileRenderer.frag
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1247/trunk/WorldWindIOS/WorldWind/WorldWind/Shaders/SurfaceTileRenderer.frag
+END
+SurfaceTileRenderer.vert
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/988/trunk/WorldWindIOS/WorldWind/WorldWind/Shaders/SurfaceTileRenderer.vert
+END

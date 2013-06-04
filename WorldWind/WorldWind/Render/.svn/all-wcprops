@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1348/trunk/WorldWindIOS/WorldWind/WorldWind/Render
+END
+WWTextureTile.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1082/trunk/WorldWindIOS/WorldWind/WorldWind/Render/WWTextureTile.h
+END
+WWGpuShader.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1038/trunk/WorldWindIOS/WorldWind/WorldWind/Render/WWGpuShader.h
+END
+WWGpuProgram.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1321/trunk/WorldWindIOS/WorldWind/WorldWind/Render/WWGpuProgram.h
+END
+WWTextureTile.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1160/trunk/WorldWindIOS/WorldWind/WorldWind/Render/WWTextureTile.m
+END
+WWGpuShader.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1038/trunk/WorldWindIOS/WorldWind/WorldWind/Render/WWGpuShader.m
+END
+WWGpuProgram.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1321/trunk/WorldWindIOS/WorldWind/WorldWind/Render/WWGpuProgram.m
+END
+WWSurfaceTileRenderer.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1247/trunk/WorldWindIOS/WorldWind/WorldWind/Render/WWSurfaceTileRenderer.h
+END
+WWTexture.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1263/trunk/WorldWindIOS/WorldWind/WorldWind/Render/WWTexture.h
+END
+WWSceneController.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1322/trunk/WorldWindIOS/WorldWind/WorldWind/Render/WWSceneController.h
+END
+WWSurfaceTileRenderer.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1247/trunk/WorldWindIOS/WorldWind/WorldWind/Render/WWSurfaceTileRenderer.m
+END
+WWDrawContext.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1347/trunk/WorldWindIOS/WorldWind/WorldWind/Render/WWDrawContext.h
+END
+WWRenderable.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1348/trunk/WorldWindIOS/WorldWind/WorldWind/Render/WWRenderable.h
+END
+WWTexture.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1317/trunk/WorldWindIOS/WorldWind/WorldWind/Render/WWTexture.m
+END
+WWSurfaceTile.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1082/trunk/WorldWindIOS/WorldWind/WorldWind/Render/WWSurfaceTile.h
+END
+WWSceneController.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1347/trunk/WorldWindIOS/WorldWind/WorldWind/Render/WWSceneController.m
+END
+WWDrawContext.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1347/trunk/WorldWindIOS/WorldWind/WorldWind/Render/WWDrawContext.m
+END
+WWOrderedRenderable.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1191/trunk/WorldWindIOS/WorldWind/WorldWind/Render/WWOrderedRenderable.h
+END

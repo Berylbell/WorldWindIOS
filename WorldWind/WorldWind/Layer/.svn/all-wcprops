@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1392/trunk/WorldWindIOS/WorldWind/WorldWind/Layer
+END
+WWDAFIFLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1290/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWDAFIFLayer.m
+END
+WWLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1368/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWLayer.h
+END
+WWBingLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1135/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWBingLayer.h
+END
+WWOpenWeatherMapLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1323/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWOpenWeatherMapLayer.h
+END
+WWLayerList.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1368/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWLayerList.m
+END
+WWI3LandsatLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1117/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWI3LandsatLayer.h
+END
+WWEarthAtNightLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1381/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWEarthAtNightLayer.h
+END
+WWBMNGLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1073/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWBMNGLayer.h
+END
+WWLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1368/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWLayer.m
+END
+WWBingLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1387/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWBingLayer.m
+END
+WWOpenWeatherMapLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1387/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWOpenWeatherMapLayer.m
+END
+WWOpenStreetMapLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1237/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWOpenStreetMapLayer.h
+END
+WWI3LandsatLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1387/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWI3LandsatLayer.m
+END
+WWEarthAtNightLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1387/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWEarthAtNightLayer.m
+END
+WWBMNGOneImageLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1073/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWBMNGOneImageLayer.h
+END
+WWBMNGLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1387/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWBMNGLayer.m
+END
+WWOpenStreetMapLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1387/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWOpenStreetMapLayer.m
+END
+WWWMSTiledImageLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1369/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWWMSTiledImageLayer.h
+END
+WWBMNGOneImageLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1145/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWBMNGOneImageLayer.m
+END
+WWWMSTiledImageLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1387/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWWMSTiledImageLayer.m
+END
+WWWMSLayerExpirationRetriever.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1356/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWWMSLayerExpirationRetriever.h
+END
+WWRenderableLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1362/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWRenderableLayer.h
+END
+WWTiledImageLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1388/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWTiledImageLayer.h
+END
+WWWMSLayerExpirationRetriever.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1383/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWWMSLayerExpirationRetriever.m
+END
+WWShowTessellationLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1230/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWShowTessellationLayer.h
+END
+WWRenderableLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1362/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWRenderableLayer.m
+END
+WWDAFIFLayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1290/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWDAFIFLayer.h
+END
+WWTiledImageLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1392/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWTiledImageLayer.m
+END
+WWLayerList.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1368/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWLayerList.h
+END
+WWShowTessellationLayer.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1230/trunk/WorldWindIOS/WorldWind/WorldWind/Layer/WWShowTessellationLayer.m
+END

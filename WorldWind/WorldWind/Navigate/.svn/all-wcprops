@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1344/trunk/WorldWindIOS/WorldWind/WorldWind/Navigate
+END
+WWNavigatorState.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1342/trunk/WorldWindIOS/WorldWind/WorldWind/Navigate/WWNavigatorState.h
+END
+WWBasicNavigatorState.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1296/trunk/WorldWindIOS/WorldWind/WorldWind/Navigate/WWBasicNavigatorState.h
+END
+WWAbstractNavigator.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1306/trunk/WorldWindIOS/WorldWind/WorldWind/Navigate/WWAbstractNavigator.h
+END
+WWFirstPersonNavigator.m
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1312/trunk/WorldWindIOS/WorldWind/WorldWind/Navigate/WWFirstPersonNavigator.m
+END
+WWBasicNavigatorState.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1342/trunk/WorldWindIOS/WorldWind/WorldWind/Navigate/WWBasicNavigatorState.m
+END
+WWAbstractNavigator.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1344/trunk/WorldWindIOS/WorldWind/WorldWind/Navigate/WWAbstractNavigator.m
+END
+WWLookAtNavigator.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1309/trunk/WorldWindIOS/WorldWind/WorldWind/Navigate/WWLookAtNavigator.h
+END
+WWFirstPersonNavigator.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1309/trunk/WorldWindIOS/WorldWind/WorldWind/Navigate/WWFirstPersonNavigator.h
+END
+WWLookAtNavigator.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1312/trunk/WorldWindIOS/WorldWind/WorldWind/Navigate/WWLookAtNavigator.m
+END
+WWNavigator.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1309/trunk/WorldWindIOS/WorldWind/WorldWind/Navigate/WWNavigator.h
+END
