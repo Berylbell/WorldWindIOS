@@ -183,7 +183,15 @@
     }
 
     sb = [sb stringByReplacingOccurrencesOfString:@" " withString:@"%20"];
-
+    
+    //NSLog(@"West = %f  East= %f South= %f North = %f", [s minLongitude], [s maxLongitude], [s minLatitude], [s maxLatitude]);
+    
+    double zoomLvL = 180/ ([s maxLongitude]- [s minLongitude])-1;
+    double yLoc = [s maxLatitude] * (zoomLvL +1)/180-1;
+    double xLoc= [s maxLatitude] * (zoomLvL +1)/180-1;
+    
+    NSLog(@" Zoom Level: %f  YLocation: %f  XLocation: %f", zoomLvL,yLoc,xLoc);
+    
     return [[NSURL alloc] initWithString:sb];
 }
 
