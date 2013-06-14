@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GMRT_CREDIT</key>
+	<string>LDEO - Columbia University</string>
+	<key>GMRT_INFO</key>
+	<string>http://app.earth-observer.org/data/basemaps/gmrt/basemap.html</string>
+	<key>GMRT_LEGEND</key>
+	<string>http://app.earth-observer.org/data/basemaps/gmrt/basemap.html</string>
+	<key>GMRT_MERC</key>
+	<string>http://app.earth-observer.org/data/basemaps/merc_320</string>
+	<key>GMRT_SP</key>
+	<string>http://app.earth-observer.org/data/basemaps/SP_320</string>
+	<key>GMRT_NP</key>
+	<string>http://app.earth-observer.org/data/basemaps/NP_320_75</string>
+	<key>GMRT_MERC_MB</key>
+	<string>http://www.gmrt.org/tiles/2.0/merc_320/multibeam</string>
+	<key>GMRT_MERC_GDEM</key>
+	<string>http://www.gmrt.org/tiles/2.0/merc_320/gdem</string>
+	<key>GMRT_SP_MB</key>
+	<string>http://www.gmrt.org/tiles/2.0/SP_320/multibeam</string>
+	<key>GMRT_NP_MB</key>
+	<string>http://www.gmrt.org/tiles/2.0/NP_320/multibeam</string>
+	<key>PLACE_NAMES</key>
+	<string>http://app.earth-observer.org/data/overlays/WorldWFS</string>
+	<key>LOCATIONS_DISCLAIMER</key>
+	<string>http://app.earth-observer.org/version_2_4/EO_LocationsDisclaimer.txt</string>
+</dict>
+</plist>
