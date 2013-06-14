@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface EOMapListDetailController : NSObject
+@interface EOMapListDetailController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, strong) NSDictionary *mapDictionary;
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 
 @end

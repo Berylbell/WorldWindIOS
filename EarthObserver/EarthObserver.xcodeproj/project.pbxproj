@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14A54D0717666FDE00D86E4B /* EOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A54D0617666FDE00D86E4B /* EOViewController.m */; };
 		14C067D2176102FA00E86401 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C067D1176102FA00E86401 /* UIKit.framework */; };
 		14C067D4176102FA00E86401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C067D3176102FA00E86401 /* Foundation.framework */; };
 		14C067D6176102FA00E86401 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C067D5176102FA00E86401 /* CoreGraphics.framework */; };
@@ -21,6 +22,18 @@
 		14C067F2176102FB00E86401 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C067D3176102FA00E86401 /* Foundation.framework */; };
 		14C067FA176102FB00E86401 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14C067F8176102FB00E86401 /* InfoPlist.strings */; };
 		14C067FD176102FB00E86401 /* EarthObserverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C067FC176102FB00E86401 /* EarthObserverTests.m */; };
+		14C0680C1761040300E86401 /* EO_Paths.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14C068071761040300E86401 /* EO_Paths.plist */; };
+		14C0680D1761040300E86401 /* MapOverlays_merc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14C068081761040300E86401 /* MapOverlays_merc.plist */; };
+		14C0680E1761040300E86401 /* MapOverlays_NP.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14C068091761040300E86401 /* MapOverlays_NP.plist */; };
+		14C0680F1761040300E86401 /* MapOverlays_SP.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14C0680A1761040300E86401 /* MapOverlays_SP.plist */; };
+		14C068101761040300E86401 /* PlaceNames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14C0680B1761040300E86401 /* PlaceNames.plist */; };
+		14C068121761045600E86401 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C068111761045600E86401 /* OpenGLES.framework */; };
+		14C068141761045F00E86401 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C068131761045F00E86401 /* QuartzCore.framework */; };
+		14C068161761046C00E86401 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C068151761046C00E86401 /* CoreLocation.framework */; };
+		14E714221767755A0012D535 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E714211767755A0012D535 /* Interface.storyboard */; };
+		14E71425176777120012D535 /* EOMapListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E71424176777120012D535 /* EOMapListController.m */; };
+		14E71428176796210012D535 /* EOMapListDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E71427176796210012D535 /* EOMapListDetailController.m */; };
+		14ECA9CE176230C800395AF0 /* EOListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14ECA9CD176230C800395AF0 /* EOListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14A54D0517666FDE00D86E4B /* EOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOViewController.h; sourceTree = "<group>"; };
+		14A54D0617666FDE00D86E4B /* EOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOViewController.m; sourceTree = "<group>"; };
 		14C067CE176102FA00E86401 /* EarthObserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthObserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C067D1176102FA00E86401 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		14C067D3176102FA00E86401 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +68,21 @@
 		14C067F9176102FB00E86401 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		14C067FB176102FB00E86401 /* EarthObserverTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EarthObserverTests.h; sourceTree = "<group>"; };
 		14C067FC176102FB00E86401 /* EarthObserverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EarthObserverTests.m; sourceTree = "<group>"; };
+		14C068071761040300E86401 /* EO_Paths.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = EO_Paths.plist; path = "../../iGMA copy/Resources/EO_Paths.plist"; sourceTree = "<group>"; };
+		14C068081761040300E86401 /* MapOverlays_merc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MapOverlays_merc.plist; path = "../../iGMA copy/Resources/MapOverlays_merc.plist"; sourceTree = "<group>"; };
+		14C068091761040300E86401 /* MapOverlays_NP.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MapOverlays_NP.plist; path = "../../iGMA copy/Resources/MapOverlays_NP.plist"; sourceTree = "<group>"; };
+		14C0680A1761040300E86401 /* MapOverlays_SP.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MapOverlays_SP.plist; path = "../../iGMA copy/Resources/MapOverlays_SP.plist"; sourceTree = "<group>"; };
+		14C0680B1761040300E86401 /* PlaceNames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PlaceNames.plist; path = "../../iGMA copy/Resources/PlaceNames.plist"; sourceTree = "<group>"; };
+		14C068111761045600E86401 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		14C068131761045F00E86401 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		14C068151761046C00E86401 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		14E714211767755A0012D535 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		14E71423176777120012D535 /* EOMapListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EOMapListController.h; path = ../EOMapListController.h; sourceTree = "<group>"; };
+		14E71424176777120012D535 /* EOMapListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EOMapListController.m; path = ../EOMapListController.m; sourceTree = "<group>"; };
+		14E71426176796210012D535 /* EOMapListDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EOMapListDetailController.h; path = ../EOMapListDetailController.h; sourceTree = "<group>"; };
+		14E71427176796210012D535 /* EOMapListDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EOMapListDetailController.m; path = ../EOMapListDetailController.m; sourceTree = "<group>"; };
+		14ECA9CC176230C800395AF0 /* EOListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOListViewController.h; sourceTree = "<group>"; };
+		14ECA9CD176230C800395AF0 /* EOListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14C068161761046C00E86401 /* CoreLocation.framework in Frameworks */,
+				14C068141761045F00E86401 /* QuartzCore.framework in Frameworks */,
+				14C068121761045600E86401 /* OpenGLES.framework in Frameworks */,
 				14C067D2176102FA00E86401 /* UIKit.framework in Frameworks */,
 				14C067D4176102FA00E86401 /* Foundation.framework in Frameworks */,
 				14C067D6176102FA00E86401 /* CoreGraphics.framework in Frameworks */,
@@ -82,6 +115,10 @@
 		14C067C5176102FA00E86401 = {
 			isa = PBXGroup;
 			children = (
+				14E714211767755A0012D535 /* Interface.storyboard */,
+				14A54D0517666FDE00D86E4B /* EOViewController.h */,
+				14A54D0617666FDE00D86E4B /* EOViewController.m */,
+				14C06806176103AF00E86401 /* Resources */,
 				14C067D7176102FA00E86401 /* EarthObserver */,
 				14C067F5176102FB00E86401 /* EarthObserverTests */,
 				14C067D0176102FA00E86401 /* Frameworks */,
@@ -101,6 +138,9 @@
 		14C067D0176102FA00E86401 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				14C068151761046C00E86401 /* CoreLocation.framework */,
+				14C068131761045F00E86401 /* QuartzCore.framework */,
+				14C068111761045600E86401 /* OpenGLES.framework */,
 				14C067D1176102FA00E86401 /* UIKit.framework */,
 				14C067D3176102FA00E86401 /* Foundation.framework */,
 				14C067D5176102FA00E86401 /* CoreGraphics.framework */,
@@ -112,9 +152,15 @@
 		14C067D7176102FA00E86401 /* EarthObserver */ = {
 			isa = PBXGroup;
 			children = (
+				14E71426176796210012D535 /* EOMapListDetailController.h */,
+				14E71427176796210012D535 /* EOMapListDetailController.m */,
+				14E71423176777120012D535 /* EOMapListController.h */,
+				14E71424176777120012D535 /* EOMapListController.m */,
 				14C067E0176102FA00E86401 /* EOAppDelegate.h */,
 				14C067E1176102FA00E86401 /* EOAppDelegate.m */,
 				14C067D8176102FA00E86401 /* Supporting Files */,
+				14ECA9CC176230C800395AF0 /* EOListViewController.h */,
+				14ECA9CD176230C800395AF0 /* EOListViewController.m */,
 			);
 			path = EarthObserver;
 			sourceTree = "<group>";
@@ -150,6 +196,18 @@
 				14C067F8176102FB00E86401 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14C06806176103AF00E86401 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				14C068071761040300E86401 /* EO_Paths.plist */,
+				14C068081761040300E86401 /* MapOverlays_merc.plist */,
+				14C068091761040300E86401 /* MapOverlays_NP.plist */,
+				14C0680A1761040300E86401 /* MapOverlays_SP.plist */,
+				14C0680B1761040300E86401 /* PlaceNames.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +286,12 @@
 				14C067E4176102FA00E86401 /* Default.png in Resources */,
 				14C067E6176102FA00E86401 /* Default@2x.png in Resources */,
 				14C067E8176102FA00E86401 /* Default-568h@2x.png in Resources */,
+				14C0680C1761040300E86401 /* EO_Paths.plist in Resources */,
+				14C0680D1761040300E86401 /* MapOverlays_merc.plist in Resources */,
+				14C0680E1761040300E86401 /* MapOverlays_NP.plist in Resources */,
+				14C0680F1761040300E86401 /* MapOverlays_SP.plist in Resources */,
+				14C068101761040300E86401 /* PlaceNames.plist in Resources */,
+				14E714221767755A0012D535 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +328,10 @@
 			files = (
 				14C067DE176102FA00E86401 /* main.m in Sources */,
 				14C067E2176102FA00E86401 /* EOAppDelegate.m in Sources */,
+				14ECA9CE176230C800395AF0 /* EOListViewController.m in Sources */,
+				14A54D0717666FDE00D86E4B /* EOViewController.m in Sources */,
+				14E71425176777120012D535 /* EOMapListController.m in Sources */,
+				14E71428176796210012D535 /* EOMapListDetailController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +506,7 @@
 				14C06802176102FB00E86401 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14C06803176102FB00E86401 /* Build configuration list for PBXNativeTarget "EarthObserverTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +515,7 @@
 				14C06805176102FB00E86401 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

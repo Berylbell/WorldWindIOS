@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface EOMapListController : NSObject
+@interface EOMapListController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 @end

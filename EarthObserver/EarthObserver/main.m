@@ -13,6 +13,7 @@
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
+        NSLog(@"Did Load Main");
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([EOAppDelegate class]));
     }
 }

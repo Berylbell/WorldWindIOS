@@ -10,4 +10,13 @@
 
 @interface EOplistManager : NSObject
 
+@property (nonatomic, readonly) NSString* plistLocation;
+@property (nonatomic, readonly) NSArray* plistContent;
+
+-(id) initWithPlistLocation: (NSString*) plistLocation;
+-(NSString*) getURLAtLocation: (NSInteger*) location;
+-(NSString*) getURLAtLocationDepth:(NSInteger*) location atDepth: (NSInteger*) depth;
+-(NSString*) getTypeAtLocation: (NSInteger*) location;
+-(NSString*) getTypeAtLocationDepth:(NSInteger*) location atDepth: (NSInteger*) depth ;
+
 @end

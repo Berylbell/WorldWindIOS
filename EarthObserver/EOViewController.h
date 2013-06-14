@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface EOViewController : NSObject
+@interface EOViewController : UIViewController < UITableViewDataSource, UITableViewDelegate>
 
 @end

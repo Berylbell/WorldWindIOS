@@ -60,19 +60,19 @@
     return cell;
 }
 
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-
-    
-    NSLog(@"Got Clicked!");
-    
-    NSMutableDictionary* overlayDict = [_libraryContent objectAtIndex:indexPath.row];
-    
-    if( [[overlayDict objectForKey:@"type"] isEqualToString:@"dir"] ){
-        _libraryContent= [overlayDict objectForKey:@"children"];
-        [tableView reloadData];
-    }
-
-}
+//-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+//
+//    
+//    NSLog(@"Got Clicked!");
+//    
+//    NSMutableDictionary* overlayDict = [_libraryContent objectAtIndex:indexPath.row];
+//    
+//    if( [[overlayDict objectForKey:@"type"] isEqualToString:@"dir"] ){
+//        _libraryContent= [overlayDict objectForKey:@"children"];
+//        [tableView reloadData];
+//    }
+//
+//}
 
 
 @end

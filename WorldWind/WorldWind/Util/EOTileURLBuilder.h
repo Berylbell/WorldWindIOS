@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "WWUrlBuilder.h"
 
-@interface EOTileURLBuilder : NSObject
+
+@interface EOTileURLBuilder : NSObject <WWUrlBuilder>
+
+@property(nonatomic, readonly) NSString* serviceAddress;
+
+@property (nonatomic, readonly) NSString* fileType;
+
+-(EOTileURLBuilder*) initWithServiceAddress: (NSString*) serviceAddress
+                                   fileType:(NSString*) fileType;
 
 @end

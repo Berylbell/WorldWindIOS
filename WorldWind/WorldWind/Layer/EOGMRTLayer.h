@@ -8,19 +8,24 @@
 
 #import <Foundation/Foundation.h>
 #import "WorldWind/Layer/WWTiledImageLayer.h"
-
+#import "WWLayerList.h"
+#import "EOplistManager.h"
+#import "WWRenderableLayer.h"
 /**
  * Using Marine-Geo imports base map from the GEOMap App
  */
-@interface LDGMRTLayer : WWTiledImageLayer
+@interface EOGMRTLayer : WWRenderableLayer
 
 /// @name Initializing GMRT
 
+@property EOplistManager* plist;
 /**
  * Initializes an GMRT layer.
  *
  * @return The initialized layer.
  */
-- (LDGMRTLayer*) init;
+- (id) initWithPlist: (NSString*) plistName ;
+
+-(WWLayerList*) addLayersToLayerList: (WWLayerList*) layerList;
 
 @end

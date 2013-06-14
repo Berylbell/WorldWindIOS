@@ -185,6 +185,9 @@
                                            minLongitude:minLon maxLongitude:maxLon];
 }
 
+// This is where the columns and rows are calculated to be used in constructing a url directly to a tile on the ldeo server.
+// in this we end up with a row and column and then we use the zoom/row/row_column.png 
+
 + (void) createTilesForLevel:(WWLevel*)level
                  tileFactory:(id <WWTileFactory>)tileFactory
                     tilesOut:(NSMutableArray*)tilesOut
@@ -234,6 +237,9 @@
                                                                     maxLatitude:maxLat
                                                                    minLongitude:minLon
                                                                    maxLongitude:maxLon];
+            
+            //NSLog(@" The Zoom Level is: %d  The Row is: %d The Column is: %d", [level levelNumber], row, col);
+            
             WWTile* tile = [tileFactory createTile:tileSector level:level row:row column:col];
             [tilesOut addObject:tile];
 

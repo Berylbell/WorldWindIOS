@@ -11,5 +11,6 @@
 @interface EOAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic) UINavigationController *navController;
 
 @end

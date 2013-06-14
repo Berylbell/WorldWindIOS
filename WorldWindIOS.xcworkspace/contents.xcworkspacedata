@@ -5,6 +5,9 @@
       location = "group:WorldWindExamples/WorldWindExamples.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:EarthObserver/EarthObserver.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:WorldWind/WorldWind.xcodeproj">
    </FileRef>
 </Workspace>

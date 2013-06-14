@@ -7,14 +7,15 @@
 //
 
 #import "EarthObserverTests.h"
+#import "EOPlistLoader.h"
 
 @implementation EarthObserverTests
 
 - (void)setUp
 {
     [super setUp];
+    NSLog(@"Did Load Tests");
     
-    // Set-up code here.
 }
 
 - (void)tearDown

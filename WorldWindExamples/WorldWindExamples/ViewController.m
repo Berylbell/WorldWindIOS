@@ -24,7 +24,7 @@
 #import "WorldWind/Layer/WWI3LandsatLayer.h"
 #import "WorldWind/Layer/WWBingLayer.h"
 #import "WorldWind/Layer/WWOpenStreetMapLayer.h"
-#import "WorldWind/Layer/LDGMRTLayer.h"
+#import "WorldWind/Layer/EoGMRTLayer.h"
 #import "WorldWind/Shapes/WWPath.h"
 #import "WorldWind/Geometry/WWPosition.h"
 #import "WorldWind/Shapes/WWShapeAttributes.h"
@@ -40,6 +40,8 @@
 #import "WMSServerListController.h"
 #import "WorldWind/Util/WWRetriever.h"
 #import "WorldWind/Layer/WWEarthAtNightLayer.h"
+#import "WorldWind/Layer/EOImageFromSever.h"
+#import "WorldWind/Layer/EOGMRTLayer.h"
 
 #define TOOLBAR_HEIGHT 44
 #define SEARCHBAR_PLACEHOLDER @"Search or Address"
@@ -100,50 +102,48 @@
 
     WWLayerList* layers = [[_wwv sceneController] layers];
 
+    
     WWLayer* layer = [[WWBMNGLayer alloc] init];
     [layers addLayer:layer];
 
-    layer = [[WWI3LandsatLayer alloc] init];
-    [layers addLayer:layer];
+//    layer = [[EOImageFromSever alloc] init];
+//    [layers addLayer:layer];
+
     
-    layer = [[LDGMRTLayer alloc] init];
-    [layer setOpacity: 0.8];
-    [layers addLayer:layer];
-
-    layer = [[WWBingLayer alloc] init];
-    [layers addLayer:layer];
-
-    layer = [[WWOpenStreetMapLayer alloc] init];
-    [layer setOpacity:0.75];
-    [layers addLayer:layer];
-
-    layer = [[WWDAFIFLayer alloc] init];
-    [layer setEnabled:NO];
-    [layers addLayer:layer];
-
-    layer = [[FAAChartsAlaskaLayer alloc] init];
-    [layer setEnabled:NO];
-    [layers addLayer:layer];
-
-    layer = [[WWOpenWeatherMapLayer alloc] init];
-    [layer setOpacity:0.4];
-    [layer setEnabled:NO];
-    [layers addLayer:layer];
+//    layer = [[WWI3LandsatLayer alloc] init];
+//    [layers addLayer:layer];
+//    
+//    layer = [[EOGMRTLayer alloc] init];
+//    [layer setOpacity: 0.8];
+//    [layers addLayer:layer];
+//
+//    layer = [[WWBingLayer alloc] init];
+//    [layers addLayer:layer];
+//
+//    layer = [[WWOpenStreetMapLayer alloc] init];
+//    [layer setOpacity:0.75];
+//    [layers addLayer:layer];
+//
+//    layer = [[WWDAFIFLayer alloc] init];
+//    [layer setEnabled:NO];
+//    [layers addLayer:layer];
+//
+//    layer = [[FAAChartsAlaskaLayer alloc] init];
+//    [layer setEnabled:NO];
+//    [layers addLayer:layer];
+//
+//    layer = [[WWOpenWeatherMapLayer alloc] init];
+//    [layer setOpacity:0.4];
+//    [layer setEnabled:NO];
+//    [layers addLayer:layer];
 
     layer = [[WWEarthAtNightLayer alloc] init];
     [layer setOpacity:0.75];
-    [layer setEnabled:NO];
     [layers addLayer:layer];
-
-    [self makeTrackingController];
-    [self makeFlightPathsLayer];
-//
-//    layer = [[WWShowTessellationLayer alloc] init];
-//    [layers addLayer:layer];
-
-    layer = [[CrashDataLayer alloc] initWithURL:@"http://worldwindserver.net/crashes.kml"];
-    [layer setEnabled:NO];
-    [layers addLayer:layer];
+    
+    EOGMRTLayer* gmrtLayer = [[EOGMRTLayer alloc] initWithPlist:@"MapOverlays_merc"];
+    
+    layers= [gmrtLayer addLayersToLayerList:layers];
 
     tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
     [tapGestureRecognizer setNumberOfTapsRequired:1];

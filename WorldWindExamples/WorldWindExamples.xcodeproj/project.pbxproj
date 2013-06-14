@@ -21,6 +21,11 @@
 		0B98142C165FFB1200193E50 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B981429165FFB1200193E50 /* OpenGLES.framework */; };
 		0B98142D165FFB1200193E50 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B98142A165FFB1200193E50 /* QuartzCore.framework */; };
 		0BA1E9DE16B09B92004F3619 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BA1E9DD16B09B92004F3619 /* SystemConfiguration.framework */; };
+		14E56264176B823200EB07CA /* EO_Paths.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14E5625F176B823100EB07CA /* EO_Paths.plist */; };
+		14E56265176B823200EB07CA /* MapOverlays_merc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14E56260176B823100EB07CA /* MapOverlays_merc.plist */; };
+		14E56266176B823200EB07CA /* MapOverlays_NP.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14E56261176B823100EB07CA /* MapOverlays_NP.plist */; };
+		14E56267176B823200EB07CA /* MapOverlays_SP.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14E56262176B823200EB07CA /* MapOverlays_SP.plist */; };
+		14E56268176B823200EB07CA /* PlaceNames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14E56263176B823200EB07CA /* PlaceNames.plist */; };
 		1BF9A0795355CE505BDA7B79 /* 431-yes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF9A01B81E26189A95F3975 /* 431-yes@2x.png */; };
 		1BF9A1502D44897945819C46 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF9AD514AAFF11ABADB45A5 /* TextViewController.m */; };
 		1BF9A1AFEB7A2BEB1AE2165F /* 01-refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BF9AE7F3ED17C02DDD3B2F2 /* 01-refresh.png */; };
@@ -82,6 +87,11 @@
 		0B981429165FFB1200193E50 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		0B98142A165FFB1200193E50 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0BA1E9DD16B09B92004F3619 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		14E5625F176B823100EB07CA /* EO_Paths.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EO_Paths.plist; sourceTree = "<group>"; };
+		14E56260176B823100EB07CA /* MapOverlays_merc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MapOverlays_merc.plist; sourceTree = "<group>"; };
+		14E56261176B823100EB07CA /* MapOverlays_NP.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MapOverlays_NP.plist; sourceTree = "<group>"; };
+		14E56262176B823200EB07CA /* MapOverlays_SP.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MapOverlays_SP.plist; sourceTree = "<group>"; };
+		14E56263176B823200EB07CA /* PlaceNames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PlaceNames.plist; sourceTree = "<group>"; };
 		1BF9A01B81E26189A95F3975 /* 431-yes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "431-yes@2x.png"; sourceTree = "<group>"; };
 		1BF9A0B890751E69BEF0FCD2 /* 01-refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-refresh@2x.png"; sourceTree = "<group>"; };
 		1BF9A0F045D17989445FC7AC /* CrashDataLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrashDataLayer.m; sourceTree = "<group>"; };
@@ -234,6 +244,11 @@
 		0B98140F165FFA4900193E50 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				14E5625F176B823100EB07CA /* EO_Paths.plist */,
+				14E56260176B823100EB07CA /* MapOverlays_merc.plist */,
+				14E56261176B823100EB07CA /* MapOverlays_NP.plist */,
+				14E56262176B823200EB07CA /* MapOverlays_SP.plist */,
+				14E56263176B823200EB07CA /* PlaceNames.plist */,
 				0B981410165FFA4900193E50 /* WorldWindExamples-Info.plist */,
 				0B981411165FFA4900193E50 /* InfoPlist.strings */,
 				0B981414165FFA4900193E50 /* main.m */,
@@ -346,6 +361,11 @@
 				1BF9A7DFC72EB2865630EB6D /* 05-plus@2x.png in Resources */,
 				1BF9A1AFEB7A2BEB1AE2165F /* 01-refresh.png in Resources */,
 				1BF9AC52C1DC8E216F366D09 /* 01-refresh@2x.png in Resources */,
+				14E56264176B823200EB07CA /* EO_Paths.plist in Resources */,
+				14E56265176B823200EB07CA /* MapOverlays_merc.plist in Resources */,
+				14E56266176B823200EB07CA /* MapOverlays_NP.plist in Resources */,
+				14E56267176B823200EB07CA /* MapOverlays_SP.plist in Resources */,
+				14E56268176B823200EB07CA /* PlaceNames.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,9 +17,9 @@
 -(EOImageFromSever*) init {
     
     self= [super init];
-    NSString* networkLocation = @"http://new.geomapapp.org/data/basemaps/images/global/BlueMarble_512/BlueMarbleApr_512/2/1/";
+    NSString* networkLocation = @"http://www.ldeo.columbia.edu/~berylb";
     
-    NSString* imageFileName= @"1_2.jpg";
+    NSString* imageFileName= @"TestMap.png";
     
     [self setDisplayName:@"Blue Marble Image GeoMap"];
     

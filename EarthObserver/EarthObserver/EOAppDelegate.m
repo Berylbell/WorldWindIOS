@@ -8,23 +8,24 @@
 
 #import "EOAppDelegate.h"
 
-#import "EOListViewController.h"
+//#import "EOListViewController.h"
 
 @implementation EOAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     NSLog(@"Did Load Delegate");
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+   // self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+   // self.window.backgroundColor = [UIColor whiteColor];
     
+    //EOListViewController* rootView= [[EOListViewController alloc] initWithLibraryName:@"MapOverlays_merc"];
+   // self.navController= [[UINavigationController alloc] initWithRootViewController:rootView];
 
-    EOListViewController* rootView= [[EOListViewController alloc] initWithLibraryName:@"MapOverlays_merc"];
     
-    self.window.rootViewController = rootView;
+    //[self.window setRootViewController: _navController];
     
-    [self.window makeKeyAndVisible];
+ //   [self.window makeKeyAndVisible];
     return YES;
 }
 
